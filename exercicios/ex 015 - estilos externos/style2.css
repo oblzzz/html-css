@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    font-family: montserrat, sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #DCD9E0, #F0D7D3); /* Fundo com gradiente suave */
+    background-attachment: fixed; /* deixa o fundo parado */
+    height: 100%; /* Agora funciona mesmo com conteúdo maior */
+    margin: 0;
+}
+
+main { /* Estilos para a caixa de conteúdo principal */
+    background-color: rgba(255, 255, 255, 0.8); /* Cor da caixa de texto que estou criando */
+    margin: 30px auto; /* Centraliza a caixa horizontalmente e adiciona margem superior */
+    padding: 20px; /* Espaçamento interno da caixa */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Largura máxima da caixa */
+}
+
+h1 {
+    color: #ffffff; /* Cor do texto do título */
+    background-color: #FFA3BD; /* Cor de fundo do título */
+    padding: 10px; /* Espaçamento interno do título */
+    border-radius: 5px; /* Bordas arredondadas do título */
+    text-align: center; /* Centraliza o texto do título */
+}
+
+h2 {
+    color: #EA946E; /* Cor do texto do subtítulo */
+    margin-top: 20px; /* Espaçamento superior do subtítulo */
+}
+
+p {
+    color: #333333; /* Cor do texto do parágrafo */
+    text-align: justify; /* Justifica o texto do parágrafo */
+    line-height: 1.6; /* Altura da linha do parágrafo */
+}
+
+a {
+    color: #EA946E; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block;     /* agora ele pode ser centralizado */
+    text-align: center; /* centraliza o texto */
+    margin: 20px auto;  /* centraliza o bloco */
+    font-weight: bold; /* Deixa o texto em negrito */
+}

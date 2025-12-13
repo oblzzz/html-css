@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Classe */
+.caixa {
+  background: lightgray;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Pseudo-classes */
+.caixa:hover {
+  background: #ddd;
+}
+
+.caixa:active {
+  transform: scale(0.97);
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Quando o input recebe foco */
+input:focus {
+  border-color: #4A90E2;
+  outline: none;  /* remove o contorno padrão do navegador */
+  box-shadow: 0 0 5px #4A90E2;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* Estilo BEM visível ao focar */
+input:focus {
+  border-color: #ff6600;
+  background: #fff8f0;
+  outline: none;
+}
+
+p:first-child {
+  color: red;
+}
+
+p:nth-child(2) {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<div class="caixa">
+  <p>Primeiro parágrafo (fica vermelho)</p>
+  <p>Segundo parágrafo (fica azul)</p>
+  <p>Terceiro parágrafo (normal)</p>
+</div>
+<form>
+  <label>Email</label>
+  <input type="email">
+
+  <label>Senha</label>
+  <input type="password">
+</form>
+
+</body>
+</html>

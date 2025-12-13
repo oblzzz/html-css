@@ -1,0 +1,78 @@
+/* --------------------------
+   RESET E CONFIGURAÇÕES GERAIS
+--------------------------- */
+
+/* Define que todo texto da página usará Montserrat */
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+/* Define um gradiente cobrindo toda a página */
+html, body {
+    height: 100%; /* Garante altura total */
+    margin: 0;   /* Remove margens do navegador */
+    background-image: linear-gradient(to bottom, #DCD9E0, #F0D7D3);
+    background-attachment: fixed; /* Mantém o fundo parado ao rolar */
+}
+
+/* --------------------------
+   CABEÇALHO
+--------------------------- */
+
+header {
+    text-align: center; /* Centraliza o texto */
+    padding: 30px; /* Espaço interno */
+    color: #333; /* Cor do texto */
+}
+
+/* --------------------------
+   CONTEÚDO PRINCIPAL
+--------------------------- */
+
+main {
+    background: rgba(255, 255, 255, 0.85); /* Caixa transparente */
+    max-width: 800px; /* Limita largura */
+    margin: 40px auto; /* Centraliza a caixa */
+    padding: 20px; /* Espaço interno */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px #0003; /* Sombra */
+}
+
+/* Títulos */
+h1 {
+    color: #FF8AAE; /* Cor */
+    font-weight: 700; /* Negrito */
+}
+
+h2 {
+    color: #EA946E;
+    margin-top: 20px;
+}
+
+/* Parágrafos */
+p {
+    color: #333;
+    line-height: 1.6; /* Espaçamento entre linhas */
+    text-align: justify; /* Justifica o texto */
+}
+
+/* --------------------------
+   LINKS
+--------------------------- */
+
+.botao {
+    display: inline-block; /* Permite padding */
+    background: #EA946E; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaço */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 8px; /* Arredonda */
+    font-weight: bold; /* Negrito */
+    transition: 0.3s; /* Suaviza hover */
+}
+
+/* Efeito ao passar o mouse */
+.botao:hover {
+    background: #d47c56;
+    transform: scale(1.05); /* Aumenta suavemente */
+}

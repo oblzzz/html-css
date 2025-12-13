@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+html {
+    font-family: montserrat, sans-serif;
+    font-size: 100%;
+    background-color: rgb(246, 255, 0);
+}
+header{
+    background-color: #3d2be2;
+    font-size: 1.5rem;
+    color: springgreen;
+    padding: 1rem;
+    text-align: center;
+    max-width: 40rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+header h1{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+header h1:hover {
+    color: deeppink;
+    text-shadow: 2px 2px 5px black;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: wavy underline;
+    color: deeppink;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+main {
+    max-width: 40rem;
+    text-align: justify;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(255, 198, 245);
+    border-radius: 1rem;
+}
+
+.sobre{
+    background-color: rgb(198, 255, 231);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.sobre h2{
+    font-size: 2rem;
+    text-align: center;
+    color: deeppink;
+    padding: 0rem;
+    padding-bottom: 1rem;
+    margin: 0rem;
+}
+
+.sobre p{
+    margin: 0;
+}
+
+.artigo{
+    color:rgb(95, 1, 183);
+}
+
+.artigo h2{
+    color: deeppink;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(245, 137, 255);
+}
+
+.dica{
+    color:rgb(167, 50, 0);
+}
+
+.dica h2{
+    color: rgb(147, 79, 242);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(202, 137, 255);
+}
+
+.links{
+    text-align: center;
+    color:#3d2be2;
+;
+}
+
+.links a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    margin: auto;;
+}
+
+.links li{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.links a:hover {
+    text-decoration: underline wavy;
+    color: #3064ff;
+;
+}
+
+footer {
+    background-color: #3d2be2;
+    color: springgreen;
+    text-align: center;
+    padding: 0rem;
+    max-width: 42em;
+    margin: 1rem auto;
+}
+
+footer p{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}

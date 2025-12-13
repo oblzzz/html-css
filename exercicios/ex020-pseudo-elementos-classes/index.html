@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização de Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        a { /* isso é uma classe de link personalizada */
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover { /* isso é uma pseudo-classe de link personalizada */
+            font-style: italic;
+            text-decoration: underline;
+            color: fuchsia;
+            text-shadow:2px 2px 10px fuchsia;
+        }
+
+        a:active { /* isso é uma pseudo-classe de link personalizada */
+            color: orange;
+            text-shadow:2px 2px 10px orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalização de Links</h1>
+    <p>Você pode personalizar os links abaixo para direcionar para diferentes páginas ou recursos:</p>
+    <ul>
+        <li><a href="https://www.exemplo1.com" target="_blank" rel="noopener noreferrer">Exemplo 1</a></li>
+        <li><a href="https://www.exemplo2.com" target="_blank" rel="noopener noreferrer">Exemplo 2</a></li>
+        <li><a href="https://www.exemplo3.com" target="_blank" rel="noopener noreferrer">Exemplo 3</a></li>
+        <li><a href="teste.html">TESTE</a></li>
+        <li><a href="teste2.html">TESTE 2</a></li>
+    </ul>
+</body>
+</html>

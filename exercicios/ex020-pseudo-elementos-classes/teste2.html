@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.card {
+  padding: 20px;
+  border: 2px solid #ccc;
+  width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Decoração atrás do card */
+.card::before {
+  content: "";
+  width: 100%;
+  height: 6px;
+  background: gold;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+/* Seta após o título */
+h1::after {
+  content: " ✨";
+}
+
+/* Primeira letra do parágrafo */
+p::first-letter {
+  font-size: 2rem;
+  color: tomato;
+}
+
+/* Estilo da seleção */
+::selection {
+  background: pink;
+}
+
+/* Placeholder */
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+</style>
+<body>
+    <div class="card">
+  <h1>Título</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta ipsum neque.</p>
+  <input placeholder="Digite seu nome">
+</div>
+</body>
+</html>
