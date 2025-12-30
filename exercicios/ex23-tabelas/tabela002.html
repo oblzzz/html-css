@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        table{
+            border-collapse: collapse; 
+            width: 31.25rem;
+        }
+
+        thead, tfoot{
+            border: 0.125rem solid black; 
+            background-color: darkgray;
+            color: azure;     
+            padding: 0.625rem
+        }
+
+        td, th{
+            border: 0.125rem solid black;
+            padding: 0.625rem;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 56.982.283</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num"> 56.982.283</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 6.982.283</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="num"> 982.283</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num"> 82.283</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>684.948.923</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
