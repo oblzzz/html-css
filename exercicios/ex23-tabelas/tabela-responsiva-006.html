@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+        }
+
+        caption{
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            font-weight: 800;
+            color: magenta;
+        }
+
+        table{
+            width: 70rem;
+            border-collapse: collapse;
+            max-width: 100%;
+        }
+
+        th, td{
+            border: 0.15rem solid black;
+            padding: 1rem;
+        }
+
+        thead>tr{
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: rgb(201, 201, 201);
+        }
+
+        div.container{
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TABELAS EM TELAS PEQUENAS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error placeat optio ex dolorem perspiciatis totam blanditiis ad consectetur libero distinctio ullam possimus eligendi necessitatibus neque repudiandae, est cum quibusdam praesentium officia quod aliquid. Molestiae error quas officia quam, commodi unde veniam voluptas expedita non incidunt sed hic iste dolore rerum cum debitis doloremque culpa eligendi quibusdam, beatae pariatur facilis. Impedit nam doloremque in eligendi quod magnam ducimus veritatis eveniet nemo expedita. Optio consequatur ipsam vel, fuga aut aspernatur consequuntur magnam officiis aliquam iure repudiandae dignissimos deleniti laboriosam in beatae. Temporibus, ad minus vero neque cupiditate ea quidem enim doloribus ducimus rem. Quaerat iste corrupti ullam recusandae, temporibus, quam beatae, suscipit aliquid cupiditate minima similique quas facere perspiciatis! Quis ipsum laborum velit odio unde adipisci tempora? Voluptas voluptate qui soluta ipsum aliquam temporibus ab ad distinctio dolorum sapiente doloremque ex, nesciunt vitae dolorem aliquid odit modi. A dignissimos neque voluptatem ad labore, corporis provident aut soluta sed porro eum aliquid eveniet atque incidunt itaque fugit distinctio eligendi! Nobis voluptatem asperiores architecto mollitia maiores odit nulla natus. Cupiditate corporis cum pariatur laboriosam voluptate a, unde ratione iusto in magni, nemo placeat? Aspernatur, laborum consequatur? Fugiat excepturi exercitationem dolorum repudiandae quia odio aut autem delectus distinctio eligendi quo officiis iusto incidunt, suscipit cumque expedita, vel, dolor corporis. Fugit vel ducimus blanditiis accusamus temporibus ut maxime odio, vitae qui non, veritatis voluptas! Sapiente delectus iste facilis obcaecati laborum! Eaque minima eligendi possimus dignissimos magni veritatis officia eveniet, ratione maxime sapiente neque tenetur consequuntur? Vero molestiae eius perspiciatis aut voluptatibus exercitationem quidem magnam porro temporibus minima sequi magni maiores mollitia quam dolore voluptates explicabo sint laboriosam eum, necessitatibus saepe excepturi! Itaque quod laudantium dolore nisi, deserunt ducimus repellendus, accusantium minima fuga beatae maxime. Unde nemo architecto rerum totam laborum repudiandae, sed quos, veniam dolores tenetur, accusamus necessitatibus aliquid labore molestiae assumenda id aliquam fugiat consequuntur. Amet possimus nihil dignissimos dolores at, nobis culpa harum quo expedita tenetur quibusdam sequi. Vel at molestias expedita possimus corporis incidunt illum, similique magnam praesentium commodi debitis? Corrupti numquam delectus deserunt ipsam accusamus! Ut accusamus eligendi sed repellendus ducimus necessitatibus doloribus distinctio aut iste, enim vel minima explicabo quo officia ullam mollitia earum magni nesciunt officiis obcaecati exercitationem provident nisi nihil recusandae! Perferendis itaque dolorem laboriosam tempora, expedita esse cumque eos saepe repellat a assumenda nisi error mollitia nostrum! Ipsam alias repellat beatae minus ex facere minima quos sequi, dicta quidem quibusdam necessitatibus ratione neque eligendi nulla. Ipsum, similique numquam. Quis ratione laudantium iusto quos itaque dolorum tempora quae quibusdam, odit modi optio nisi et nesciunt quisquam ex dolores delectus numquam consectetur ipsum earum iure. Officiis sequi veniam possimus? Debitis quae, obcaecati a ratione temporibus velit voluptates quidem laudantium at nobis magni, consequuntur sapiente vero quo. Doloribus harum vitae reiciendis magnam soluta? Provident, corrupti voluptas! Necessitatibus, sit laudantium libero vitae eos totam cumque officiis. Non beatae itaque culpa magni, quasi dolorum rem adipisci minus repellat eum quos voluptatibus assumenda earum perferendis cupiditate vero omnis unde ad error illum explicabo!</p>
+    <div class="container">
+        <table>
+            <caption>BALANÇO MENSAL</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>02</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>09</td>
+                    <td>44</td>
+                    <td>69</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
