@@ -6,6 +6,33 @@
     <title>Form</title>
 </head>
 <body>
-    
+    <h1>Mais um formulário insuportável</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iest">Estado</label>
+                <select name="Estado" id="iest">
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label for="imsg">Mensagem:</label><br>
+                <textarea name="imsg" id="imsg" cols="50" rows="10"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
 </body>
 </html>
