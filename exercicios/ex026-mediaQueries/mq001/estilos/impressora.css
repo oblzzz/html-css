@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+menu{
+    display: none;
+}
+
+article{
+    width: 100%;
+}
+
+article::after{
+    font-style: italic;
+    font-weight: bolder;
+    content: 'Este material foi impresso do site www.akjshfaljdhflaj.com | Todos os direitos reservados';
+}
