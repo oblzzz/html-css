@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media print{
+    /* IMPRESSÃO */
+    *{
+        font-family:  'Times New Roman', Times, serif;
+    }
+    body{
+        /* background-image; - nao precisa pq nao imprime*/
+    }
+    main{
+        border: 0.125rem solid black;
+        color: black;
+        width: 95VW;
+    }
+    main::after {
+        content: 'GMFYFGMAJHEFG AMHJSDG FMAAHJSDGFAJHSDGAHAWKJSDGHFKAJGHS DKJHFQG KDJFHGKQUHJWGEKRIQUYWGE KIGUYQWE KFGY KUYGFJAHDSGKFHJAGDSKJF HAGKSJDHFGAKSJDHFGAHJKGSDKFHJA KSDHJFGAKJHGDSFHA SKDHJFGKAJSHDGFH AKHJSDGF AKJHGSDF KAHGSKDFJHGA KSDHFJGA KSDJHG FKAHJGSD FKHAJGSKDFJHA KHJSDFG KAHSGDF KAHJGSDF KAHGSD FKHJASG DFKJAHGS KFHJ AGKSJHD FKAHG KHJDFG KAHSJG FKHJAGS KFHJA SFDHK JSDGFAKJHSDGJFK JAKJSGDKFH AGJSKDF ASHDKGFAKSDJHGFAK HSGDGF';
+    
+    }
+
+    h1{
+        text-shadow: none;
+        color: black;
+    }
+    img.phone{display: none;}
+    img.tablet{display: none;}
+    img.print{display: block;}
+    img.pc{display: none;}
+    img.tv{display: none;}
+}
+
+@media screen and (min-width: 780px) and (max-width: 992px) { /*Tablet */
+    body{
+        background-image: url(../images/back-tablet.jpg);
+    }
+    
+img.phone{display: none;}
+img.tablet{display: block;}
+img.print{display: none;}
+img.pc{display: none;}
+img.tv{display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP*/
+    body{
+        background-image: url(../images/back-pc.jpg);
+    }
+    
+img.phone{display: none;}
+img.tablet{display: none;}
+img.print{display: none;}
+img.pc{display: block;}
+img.tv{display: none;}
+
+main{
+    width: 50rem;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../images/back-tv.jpg);
+    }
+
+img.phone{display: none;}
+img.tablet{display: none;}
+img.print{display: none;}
+img.pc{display: none;}
+img.tv{display: block;}
+
+main{
+    width: 70rem;
+}
+    
+}
