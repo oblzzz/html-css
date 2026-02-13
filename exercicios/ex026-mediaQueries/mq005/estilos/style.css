@@ -59,7 +59,7 @@ article p{
     line-height: 1.6;
 }
 
-span.material-symbols-outlined{
+i.material-symbols-outlined{
     display: block;
     color: white;
     text-align: center;
@@ -67,7 +67,7 @@ span.material-symbols-outlined{
     background-color: rgb(93, 72, 214);
 }
 
-span.material-symbols-outlined:hover{
+i.material-symbols-outlined:hover{
     background-color: rgb(95, 25, 234);
     color:violet;
     cursor:pointer;
