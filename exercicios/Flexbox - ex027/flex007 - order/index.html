@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            font-family: montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.185);
+        }
+        div.container{
+            background-color: slateblue;
+            padding: .4rem;
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+        div.item{
+            background-color: violet;
+            border: 1px solid rgb(199, 7, 161);
+            border-radius: .3rem;
+            /* margin: 1.5rem; */
+            /* flex: auto; */
+            padding: 1rem;
+            color: rgb(59, 255, 222);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        div.item:hover{
+            background-color: rgb(233, 52, 112);
+            border: 1px solid rgb(80, 255, 170);
+            color: greenyellow;
+            transition: .2s;
+            cursor: pointer;
+        }
+
+        div.A{
+            order: 1;
+        }
+
+        div.B{
+            order: -1;
+        }
+
+        div.C{
+            order: 3;
+        }
+
+        div.D{
+            order: 0;
+        }
+
+        div.E{
+            order: 2;
+        }
+
+        div.F{
+            order: -2;
+        }
+
+        div.G{
+            order: -3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item A">A</div>
+        <div class="item B">B</div>
+        <div class="item C">C</div>
+        <div class="item D">D</div>
+        <div class="item E">E</div>
+        <!-- <div class="item" style="order: -3;">F</div> -->
+        <div class="item F">F</div>
+        <div class="item G">G</div>
+    </div>
+</body>
+</html>
