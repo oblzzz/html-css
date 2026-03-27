@@ -10,6 +10,7 @@
     --roxo: rgb(110, 75, 225);
     --cor1: rgb(117, 220, 33);
     --cor2: rgb(203, 255, 47);
+    --cor3: rgb(85, 187, 1);
 }
 
 body{
@@ -18,7 +19,17 @@ body{
     background-color: var(--roxo);
     height: 100vh;
     width: 100vw;
+    
 }
+
+#burger{
+    display: none;
+}
+
+#itens{
+    display: flex;
+}
+
 
 header{
     background-color: var(--cor1);
@@ -33,34 +44,38 @@ header{
 
 main{
     background-color: rgba(255, 255, 255, 0.971);
-    margin: 1rem;
+    max-width: 50rem;
+    width: calc(100% - 3rem); /* <-- garante 1.5rem de cada lado */
+
+    margin: 1.5rem auto; /* auto centraliza */
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.370);
     border: 0.3rem solid var(--cor2);
     line-height: 1.5;
     text-indent: 30px;
+    text-align: justify;
+    
 }
 
 main > p{
-    margin-top: .5rem;
+    margin-top: .5rem
+
 }
 
 header > h1{
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     
     flex:0 0 12rem; /* tamanho do elemento título 1*/
 }
 
-header > nav{
-    border: 1px dotted black;
-
+header > #itens{
     display: flex;
-    flex-flow: row wrap; /*quebra os itens para a proxima linha ao diminuir*/
+    flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-header > nav > a{
+#itens > a{
     background-color: var(--cor2);
     padding: 0.3rem;
     border-radius: 0.3rem;
@@ -71,9 +86,37 @@ header > nav > a{
     font-weight: 700;
 }
 
-header > nav > a:hover{
+header  nav > a:hover{
     background-color: var(--roxo);
     color: var(--cor2);
     transition: background-color 0.2s;
+}
+
+i#burger{
+    background-color: var(--cor3);
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    margin: 0.15rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+i#burger:hover{
+    background-color: var(--cor2);
+    color: var(--roxo);
+    transition: background-color 0.2s;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.421);
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
 }
 
