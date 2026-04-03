@@ -52,14 +52,64 @@ p{
 
 header, section.normal{
     padding: var(--padtx);
+    padding-bottom: 0rem;
 }
 
 section.flex-content{
     background-color: var(--mid);
     padding: var(--padtx);
+
+    /* border: 1px dotted rgb(0, 221, 255); */
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-.daw{
-    max-width: 43rem;
+/* .daw{
+    max-width: 35rem;
+    display: block;
+    margin: auto;
+} */
+
+section > article{
+    /* border: 1px dotted yellow; */
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text{
+    flex: 1 1 500px;
+
+     /* border: 2px dotted blue; */
+}
+
+article > div.media{
+    flex: 1 0 400px;
+
+     /* border: 2px dotted red; */
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    padding-bottom: 1rem;
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+    padding: 0px 20px;
+    width: 95%;
 }
 
